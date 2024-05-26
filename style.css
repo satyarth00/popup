@@ -1,0 +1,200 @@
+body{
+    background-color: #DECDAC;
+    margin: 0;
+    
+}
+.container{
+position: fixed;   
+width: 690px;
+height: 346px;
+background-color: white;
+inset: 0;
+margin: auto;
+border-radius: 41px;
+box-shadow: 0px 4px 4px 0px #00000040;
+transform: scale(0);
+transition: transform 0.2s ease-in-out;
+ /* display: none;  */
+}
+
+.close-icon{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    right: 31px;
+    top: 20px;
+    cursor: pointer;
+
+}
+.heading{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    right: 65px;
+    top: 44px;
+}
+.pragraph{
+    width: 286px;
+    position: absolute;
+    right: 26px;
+    top: 118px;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .img{
+    position: relative;
+    left: 48px;
+    top: -41px;
+} 
+  
+
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 560px;
+    height: 56px;
+    border-radius: 28px;
+    margin: auto;
+    background-color: #EEE8DD;
+    border:1px solid #EEE8DD;
+}
+.emailid{
+    
+    background-color: transparent;
+    border-style: none;
+    margin-left: 15px;
+
+     
+  } 
+  input:focus{
+    outline: none;
+  }
+  .button1{
+    background-color: #EBBF53;
+    border: 1px solid #EBBF53;
+    width: 213px;
+    height: 57px;
+    border-radius: 0px 32px 31px 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+
+ .open {
+     transform: scale(1); 
+     /* display: block;  */
+}
+
+
+.btn{
+    position: fixed;
+    width: 485px;
+    height: 243.2px;
+    background-color: white;
+    inset: 0;
+    margin: auto;
+    border-radius: 28px;
+}
+
+.btn1{
+    position: absolute;
+    width: 285px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 28.18px;
+    left: 98px;
+    top: 94px;
+    border-radius: 31.17px;
+    border-style: none;
+    background-color: #EBBF53;
+    color: white;
+    cursor: pointer;
+}
+
+@media(min-width:200px) and (max-width:700px){
+
+.btn{
+        position: fixed;
+        height: 195.2px;
+        background-color: white;
+        inset: 0;
+        margin: auto;
+        border-radius: 28px;
+        width: 327px;
+}
+
+.btn1{
+    
+   
+        width: 262px;
+        height: 63px;
+        font-weight: 400;
+        font-size: 28.18px;
+        top: 71px;
+        left: 35px;
+}
+.container{
+    width: 336px;
+        height: 256px;
+    }
+
+.container2{
+    display: flex;
+    width: 312px;
+        margin-top: 50px;
+}
+
+.close-icon{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 400;
+    right: 45px;
+    top: 44px;
+}
+
+.img{
+    left: 14px;
+    top: -41px;
+    width: 124px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 400;
+    right:34px;
+    top: 54px;
+}
+
+.pragraph{
+        width: 201px;
+        right: 15px;
+        top: 104px;
+        font-size: 14px;
+        font-weight: 400;
+}
+.emailid{
+     margin-left: 10px;
+} 
+
+  .button1{
+    width: 117px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 400;
+    } 
+}
